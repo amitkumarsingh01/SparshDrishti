@@ -10,8 +10,8 @@ import speech_recognition as sr
 app = Flask(__name__)
 
 # Set the URL of the laptop where the image will be sent
-laptop_url = 'http://192.168.55.200:5000/upload'  # Change to your laptop's IP and port
-laptop_url2 = 'http://192.168.55.200:5000/text_chain'
+laptop_url = 'http://192.168.111.200:5000/upload'  # Change to your laptop's IP and port
+laptop_url2 = 'http://192.168.111.200:5000/text_chain'
 
 # Directory to save audio files locally on the Raspberry Pi
 save_directory = r'/home/sujith/Desktop/dsu/audio_files'

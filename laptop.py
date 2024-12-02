@@ -12,9 +12,9 @@ import mimetypes
 
 app = Flask(__name__)
 
-save_directory = 'C://Users//aksml//Development//Hardware//Avishkar//DSU_Final//public'
+save_directory = r'C:\Users\aksml\Development\Hardware\SparshDrishti\public'
 # save_directory = r'C:\Users\aksml\Development\Hardware\Avishkar\DSU_Final\Hardware ESP32\ffinal\public\audio.wav'
-laptop_host = '192.168.54.200'
+laptop_host = '192.168.111.200'
 
 id_file_path = os.path.join(save_directory, 'last_id.txt')
 
